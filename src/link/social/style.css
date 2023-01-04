@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(../../img/215458_346166508800094_192123013_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sous-container {
+  display: flex;
+  height: 250px;
+  background: linear-gradient(90deg,rgba(233, 233, 233,0.1),rgba(247, 247, 247, 0.5),rgba(233, 233, 233, 0.8));
+  border-radius: 150px 25px 25px 150px;
+}
+.profile-pic {
+  background: #8a1717;
+  background-image: url("../../img/pdp.jpg");
+  background-position: center;
+  background-size: cover;
+  border: #0041a3 solid 9px;
+  border-radius: 50%;
+  width: 20%;
+  height: 100%;
+}
+.profile-pic > img {
+  width: 150px;
+}
+.description {
+  padding: 0 0 0 3%;
+}
+
+section {
+  margin: 30px 30px 30px 30px;
+  font-family: MV Boli;
+  /* background: rgba(233, 233, 233,0.5); */
+}
+section:nth-child(5) {
+  background: rgba(233, 233, 233, 0.5);
+}
+section p {
+  text-align: justify;
+  font-family: MV Boli;
+}
+.list_description {
+  display: flex;
+  border: #0041a3 solid 2.5px;
+  padding: 20px;
+  border-radius: 25px;
+  background: rgba(233, 233, 233, 0.5);
+}
+@media (max-width: 600px) {
+  .list_description {
+    flex-direction: column;
+  }
+}
+.des_port {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.des_port > dl > dd {
+  max-width: 700px;
+  font-family: MV Boli;
+  padding: 15px;
+  text-align: justify;
+}
+.des_port > dl > dt {
+  text-decoration: underline;
+}
+.premierimg img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #242424;
+  transition: all 0.5s ease;
+}
+.premierimg img:hover {
+  transform: scale(1.07);
+}
+.dsalle {
+  font-family: UD Digi Kyokasho NP-B;
+}
+section:nth-child(5) {
+  padding: 40px;
+}
+section:nth-child(3) {
+  border-radius: 0 0 25px 25px;
+}
+section:nth-child(4) {
+  border-radius: 0 0 25px 25px;
+}

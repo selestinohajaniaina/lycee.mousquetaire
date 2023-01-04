@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.map {
+  margin: 10px;
+  border: #349600 solid 1px;
+  display: flex;
+  justify-content: space-around;
+}
+.description {
+  border: #ff6c02 solid 1px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://goo.gl/maps/iuFme8gMJdxpB5HbA');
+}
+.description p{
+    margin: 10px;
+    font-size: 15pt;
+}
+@media (max-width:800px) {
+    .map{
+        display: block;
+    }
+}
